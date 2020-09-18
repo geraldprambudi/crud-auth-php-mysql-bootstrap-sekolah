@@ -1,0 +1,1 @@
+INSERT INTO `calon_siswa` (`id`, `nama`, `alamat`, `jenis_kelamin`, `agama`, `sekolah_asal`) VALUES (NULL, 'gerald ', 'jl kencana, bekasi', 'Pria', 'Islam', 'SMPN 24 bekasi'), (NULL, 'pradina', 'Jl cilengsi, Bogor', 'Perempuan', 'Islam', 'SMPN 24 bekasi');
