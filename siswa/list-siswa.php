@@ -53,6 +53,17 @@
                                             <td><?= $siswa['jenis_kelamin']; ?></td>
                                             <td><?= $siswa['agama']; ?></td>
                                             <td><?= $siswa['sekolah_asal']; ?></td>
+                                            <td>
+                                                <!-- edit -->
+                                                <?= 
+                                                    "<a class='btn btn-warning' href='edit.php?id=".$siswa['id']."'>Edit</a>";
+                                                ?>
+                                                <!-- hapus -->
+                                                <?= 
+                                                    "<a class='btn btn-danger' href='delete.php?id=".$siswa['id']."'>Hapus</a>";
+                                                ?>
+                                                
+                                            </td>
                                         </tr>
                         <?php 
                                         $no++;

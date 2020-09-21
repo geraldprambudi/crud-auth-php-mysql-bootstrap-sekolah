@@ -34,11 +34,10 @@
                 <label for="agama">Agama</label>
                 <select class="form-control" id="agama" name="agama">
                     <option>Pilih</option>
-                    <option>Islam</option>
-                    <option>Kristen</option>
-                    <option>Hindu</option>
-                    <option>Buddha</option>
-                    <option>Other</option>
+                    <option>islam</option>
+                    <option>kristen</option>
+                    <option>hindu</option>
+                    <option>buddha</option>
                 </select>
             </div>
             <div class="form-group">
